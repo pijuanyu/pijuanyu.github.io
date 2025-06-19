@@ -85,7 +85,7 @@ education:
       - Principle of Heat Transfer
       - Fluid Mechanics
   - area: BS in Energy and Power
-    institution: Florida Institute of Technology
+    institution: Wuhan Institute of Technology
     date_start: 2016-09-01
     date_end: 2018-06-30
 
