@@ -50,60 +50,91 @@ interests:
   - Vritual Reality
 
 education:
-  - area: PhD in Mechanical Engineering
+  - area: Ph.D. in Mechanical Engineering
     institution: Texas A&M University
-    date_start: 2022-01-01
-    date_end: 2020-12-31
+    date_start: 2022-08-20
+    date_end: ''
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      Supervised by [Prof Rebecca F. Friesen](https://www.friesenhaptics.com/). Published journal papers at IEEE Transaction on haptics and ASME Journal of Computing and Information Science in Engineering. Presented paper, poster and demos at IEEE Haptics Symposium, IEEE World Haptics Conference, IEEE International Conference on Ubiquitous Robots (UR), ASME IDETC/CIE conference.
+  - area: Ms in Mechanical Engineering
+    institution: Northwestern University
+    date_start: 2020-08-25
+    date_end: 2021-12-15
     summary: |
-      GPA: 3.8/4.0
+      GPA: 3.91/4.0
+
+      Minor in Engineering Management  
+
+      Supervised by [Prof Kevin Lynch and Matthew Elwin] at Center for Robotics and Biosystems (https://robotics.northwestern.edu/).
 
       Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      - Robotic Manipulation
+      - Advanced Mechatronics
+      - Engineering Optimization for Product Design and Manufacturing
+  - area: BS in Mechanical Engineering
+    institution: Florida Institute of Technology
+    date_start: 2018-08-15
+    date_end: 2020-05-15
     summary: |
-      GPA: 3.4/4.0
+      GPA: 3.51/4.0
+
+      Honor: Cum Laude 
       
       Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Control Systems
+      - Principle of Heat Transfer
+      - Fluid Mechanics
+  - area: BS in Energy and Power
+    institution: Florida Institute of Technology
+    date_start: 2016-09-01
+    date_end: 2018-06-30
+
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
+
+  - position: Graduate Research Assistant
+    company_name: Texas A&M University
+    company_url: 'https://www.friesenhaptics.com/'
     company_logo: ''
-    date_start: 2021-01-01
+    date_start: 2022-08-20
     date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
     summary: |
       Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Developed a robotic visuo-haptic platform for remote medical palpation; achieved 75% tumor diagnostic accuracy in 18 participants, proving passive haptic feedback alone sufficed for size perception (Published).
+      - Engineered a wearable VR haptic glove with Unity-integrated force feedback; 40-subject study showed 25% tactile acuity gain via mimicking motions, validating proprioception’s role in VR interaction (in Progress).
+      - Develop low-cost, open-source soft haptic display toolkits (e.g., soft tactile displays) to democratize access to high-fidelity tactile interfaces (Published).
+
+  - position: Research Technician
+    company_name: Northwestern University - The Feinberg School of Medicine
+    company_url: 'https://www.feinberg.northwestern.edu/'
+    company_logo: ''
+    date_start: 2022-04-01
+    date_end: 2022-08-11
+    summary: |
+      Responsibilities include:
+      - Designed MRI-compatible pneumatic tactile actuator (PIC32/custom PCB board) delivering 1.57N–11.60N constant-force; fMRI validation with 6 subjects mapped neural activity to primary/secondary somatosensory cortices and premotor regions.
+
+  - position: ROS Specialist Internship
+    company_name: Quanticity
+    company_url: ''
+    company_logo: ''
+    date_start: 2022-01-01
+    date_end: 2022-03-31
+    summary: |
+      Responsibilities include:
+      - Led a 4-member team to deploy an autonomous ground vehicle with visual SLAM (Simultaneous Localization and Mapping) and ROS 2 Galactic navigation.
+
+  - position: Research Assistant
+    company_name: Northwestern University - Center for robotics and biosystems
+    company_url: 'https://robotics.northwestern.edu/'
+    company_logo: ''
+    date_start: 2021-06-01
+    date_end: 2021-12-31
+    summary: |
+      Responsibilities include:
+      - Integrated Intel T265 tracking cameras and embedded computers across three omnidirectional robots, implementing AprilTag detection in ROS/OpenCV.
+      - Developed a C++/OpenCV pipeline to calibrate and undistort dual fisheye lenses and generated 3D point clouds for disparity maps in ROS Noetic to enable real-time obstacle avoidance for mobile robots.
+      - Implemented formation control and leader-follower algorithms for swarm control.
+
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -141,11 +172,9 @@ skills:
 
 languages:
   - name: English
-    percent: 100
+    percent: 80
   - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+    percent: 100
 
 # Awards.
 #   Add/remove as many awards below as you like.
@@ -181,4 +210,4 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Pijuan Yu is currently working toward his Ph.D. in Mechanical Engineering at Texas A&M University. His research interests include passive haptics, medical palpation, multisensory perception, haptic illusion, and virtual reality applications.
