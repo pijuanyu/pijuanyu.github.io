@@ -35,9 +35,9 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        I'm a PhD candidate at Texas A&M University. My current research focuses on developing remote haptic communication frameworks to render tactile sensations between nurse and doctor in Virtual/Mixed Reality.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        I conduct various of psychophysical human studies to comprehensively investigate the role of human tactile perception in the multimodal interaction system.
         
         Please reach out to collaborate 😃
     design:

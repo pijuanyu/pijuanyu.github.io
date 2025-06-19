@@ -48,6 +48,7 @@ interests:
   - Haptics
   - Robotics
   - Vritual Reality
+  - Soft Wearable Technology
 
 education:
   - area: Ph.D. in Mechanical Engineering
