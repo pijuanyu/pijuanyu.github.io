@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: Pijuan Yu
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Pijuan Yu
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Pijuan
+last_name: Yu
 
 # Status emoji
 status:
@@ -20,36 +20,34 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Ph.D. candidate
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: Texas A&M University
+    url: https://www.tamu.edu/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'pijuanyu@tamu.edu'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
   - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://www.instagram.com/pijuan_9/?next=%2F&hl=en
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/pijuanyu2022
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/pijuanyu/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+    url: https://scholar.google.com/citations?user=W1t8ALUAAAAJ&hl=en
   - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://orcid.org/my-orcid?orcid=0009-0009-7620-3596
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Haptics
+  - Robotics
+  - Vritual Reality
 
 education:
   - area: PhD Artificial Intelligence
