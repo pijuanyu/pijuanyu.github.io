@@ -35,7 +35,7 @@ summary: This study compared different methods of producing freehand contours on
 
 tags:
 - Journal articles
-featured: true
+featured: false
 
 # links:
 # - name: ""

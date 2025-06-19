@@ -23,7 +23,7 @@ publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
 publication: "IEEE Transactions on Haptics (Volume: 18, Issue: 1, Jan.-March 2025)"
-publication_short: "IEEE Trans. Hapt."
+publication_short: "IEEE Trans. Hapt"
 
 abstract: |
   Active, exploratory touch supports human perception of a broad set of invisible physical surface properties. When traditionally hands-on tasks, such as medical palpation of soft tissue, are translated to virtual settings, haptic perception is throttled by technological limitations, and much of the richness of active exploration can be lost. The current research seeks to restore some of this richness with advanced methods of passively conveying haptic data alongside synchronized visual feeds. 
