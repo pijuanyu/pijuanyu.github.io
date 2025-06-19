@@ -22,8 +22,8 @@ publishDate: "2024-12-26"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "IEEE Transactions on Haptics"
-publication_short: "IEEE ToH"
+publication: "IEEE Transactions on Haptics (Volume: 18, Issue: 1, Jan.-March 2025)"
+publication_short: "IEEE Trans. Hapt."
 
 abstract: |
   Active, exploratory touch supports human perception of a broad set of invisible physical surface properties. When traditionally hands-on tasks, such as medical palpation of soft tissue, are translated to virtual settings, haptic perception is throttled by technological limitations, and much of the richness of active exploration can be lost. The current research seeks to restore some of this richness with advanced methods of passively conveying haptic data alongside synchronized visual feeds. 
@@ -36,8 +36,8 @@ abstract: |
 summary: We explored how passive users can perceive active palpation tasks via synchronized visual/haptic feedback from a robotic platform. While passive conditions showed slight decreases in perceptual acuity, many participants reported strong ownership/kinesthetic illusions, suggesting potential for immersive "passive immersion" in hands-on experiences.
 
 tags:
-- Source Themes
-featured: false
+- Journal articles
+featured: true
 
 # links:
 # - name: ""
@@ -54,7 +54,7 @@ url_video: 'https://www.youtube.com/watch?v=TbYN0pEvcNg'
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Passive touch method. Passive presentation of an active task: a passive user observes video of active hand motion while a 2D robotic platform recreates the relative motion between the hand and object.'
+  caption: 'Passive presentation of an active task: a passive user observes video of active hand motion while a 2D robotic platform recreates the relative motion between the hand and object.'
   focal_point: ""
   preview_only: false
 
