@@ -1,12 +1,8 @@
 ---
-title: "Exploring passive presentation strategies for improved interpretation of haptic replay experiences"
+title: "Haptic Acuity during Shared Grasp Experiences in Virtual Reality"
 authors:
-  - Luke C. Batteas
-  - Daniel J. Volpi
   - admin
-  - Mihir Hingwe
-  - Kofi N. Kyei-Amponsah
-  - Francis Quek
+  - Thomas K. Ferris
   - M. Cynthia Hipwell
   - Rebecca F. Friesen
 date: "2025-06-19T00:00:00Z"
@@ -21,19 +17,22 @@ publishDate: "2025-07-20T00:00:00Z"
 publication_types: ["article"]
 
 # Publication name and optional abbreviated publication name.
-publication: "submitted to IEEE Transactions on Haptics"
-publication_short: "submitted to IEEE Trans. Hapt"
+publication: "in Progress"
+publication_short: "in Progress"
 
 abstract: |
-  Haptic replay, in which a passive hand experiences tactile sensations that would normally be acquired through active interaction, can facilitate training of touch-dependent tasks and sharing of haptic experiences. These applications are limited by demonstrably worse interpretation of haptic data under passive conditions. 
-  
-  In this work, we explore a variety of passive presentation conditions in the hopes of optimizing passive perceptual performance for haptic replay. Using a custom 2D linear stage to move shapes against a passive hand, we evaluated shape identification accuracy for three different passive presentation strategies informed by active exploration and compared participant performance to that during active exploration. The highest perceptual accuracy for passive presentation occurred when relative motion mimicked the trajectory of active movement paths at a constant velocity.
+
+  Wearable haptic gloves have the potential to greatly enhance active touch experiences in virtual reality (VR). However, it remains unclear how well people can interpret glove-enabled virtual touch experiences when experienced passively; for example, when viewing a virtual hand perform autonomous actions while also feeling what the virtual hand feels via a haptic glove. Such a “haptic replay” scenario could enable people to share, revisit, or demonstrate touch-critical experiences, including medical palpation or fine manipulation of tools. 
+
+  This study explores people’s ability to interpret one tactile feature, object size, when receiving touch feedback from a commercial haptic glove during either an active or passively-viewed grasp interaction. Although passive conditions resulted in poorer size acuity than during active touch, passive performance improved when participants mimicked the motion of the virtual hand, underscoring the role of proprioceptive feedback in grasp interpretation. In this work, men also outperformed women in object size discrimination, suggesting potential influences of glove ergonomics and size congruency between the real and virtual hand. 
+
+  Future research should investigate these variables and strive for balanced gender representation to assess generalization across VR applications.
 
 # Summary. An optional shortened abstract.
-summary: In this study, we explore a range of passive presentations for the possible improvement of passive perception of haptic information to be used in haptic replay. 
+summary: In this study, we proposed a novel system that records and plays back VR experiences using the WEART TouchDIVER haptic glove, which provides localized 1 DOF force, vibration, and temperature feedback to each fingertip.
 
 tags:
-- Under Review
+- In Progress
 
 featured: true
 
@@ -52,7 +51,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Full view of moving platform'
+  caption: 'Unity Scene in Active Touch'
   focal_point: ""
   preview_only: false
 
