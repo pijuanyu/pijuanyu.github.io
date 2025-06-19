@@ -1,7 +1,7 @@
 ---
 title: "Investigating Passive Presentation Paradigms to Approximate Active Haptic Palpation"
 authors:
-- Pijuan Yu
+- admin
 - Luke C. Batteas
 - Thomas K. Ferris
 - M. Cynthia Hipwell
@@ -45,7 +45,7 @@ url_poster: ''
 url_project: ''
 url_slides: ''
 url_source: ''
-url_video: ''
+url_video: 'https://www.youtube.com/watch?v=TbYN0pEvcNg'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
@@ -53,6 +53,9 @@ image:
   caption: 'Passive touch method. Passive presentation of an active task: a passive user observes video of active hand motion while a 2D robotic platform recreates the relative motion between the hand and object.'
   focal_point: ""
   preview_only: false
+
+# Video
+{{< youtube id="TbYN0pEvcNg" title="Synchronized Visual-haptic Feedback" >}}
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
