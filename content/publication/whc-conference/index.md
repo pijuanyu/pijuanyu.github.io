@@ -1,16 +1,15 @@
 ---
-title: 'Soft Haptic Display Toolkit: A Low-Cost, Open-Source Approach to High Resolution Tactile Feedback'
+title: 'The Impact of Palpation Motion on Capturing Lumps in Tissue with Force Sensor'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - admin
-  - Alexis Urquhart
   - Anzu Kawazoe
+  - admin
   - Thomas K. Ferris
-  - M. Cynthia Hipwell
   - Rebecca F. Friesen
+  - M. Cynthia Hipwell
 
 # Author notes (optional)
 author_notes:
@@ -21,7 +20,7 @@ date: '2025-06-19T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2025-07-01T00:00:00Z'
+publishDate: '2025-07-11T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -29,16 +28,18 @@ publishDate: '2025-07-01T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *2025 IEEE 22nd International Conference on Ubiquitous Robots (UR)*
-publication_short: In *UR 2025*
+publication: In *2025 IEEE World Haptics Conference (WHC)*
+publication_short: In *2025 IEEE WHC*
 
 abstract: |
-  High-spatial-resolution wearable tactile arrays have drawn interest from both industry and research, thanks to their capacity for delivering detailed tactile sensations. However, investigations of human tactile perception with high-resolution tactile displays remain limited, primarily due to the high costs of multi-channel control systems and the complex fabrication required for fingertip-sized actuators. 
-
-  In this work, we introduce the Soft Haptic Display (SHD) toolkit, designed to enable students and researchers from diverse technical backgrounds to explore high-density tactile feedback in extended reality (XR), robotic teleoperation, braille displays, navigation aid, MR-compatible somatosensory stimulation, and remote palpation. The toolkit provides a rapid prototyping approach and real-time wireless control for a low-cost, 4×4 soft wearable fingertip tactile display with a spatial resolution of 4 mm. We characterized the display’s performance with a maximum vertical displacement of 1.8 mm, a rise time of 0.25 second, and a maximum refresh rate of 8 Hz. All materials and code are open-sourced to foster broader human tactile perception research of high-resolution haptic displays.
+  Medical palpation is a vital diagnostic technique where practitioners assess a patient’s condition through tactile examination. Advances in remote health technologies, such as robotic hands and sensorized gloves, aim to address practitioner shortages and improve diagnostic quality by capturing essential haptic information. In thyroid examinations, differentiating nodule sizes is critical for identifying malignant lumps. 
+  
+  This study investigates how palpation motion affects the sensing performance of single-point normal force sensors in detecting thyroid nodules. Using a phantom skin model with lumps of varied sizes and depths, force data was captured and visualized as stiffness distribution (tactile imaging). The captured lump shapes were compared to actual shapes using Correlation Coefficient (CC), Mean Squared Error (MSE), and Structural Similarity Index (SSIM). 
+  
+  Results showed that single-point normal force sensors effectively detect lumps, particularly during major motions like Poke and Push & Pull, with Poke consistently yielding superior performance across various sizes and depths. However, estimating lump shapes becomes increasingly challenging as lump depth increases, regardless of the motion applied. These findings emphasize the importance of motion in optimizing single-point sensors for palpation and provide valuable insights for developing sensorized gloves for clinical use, particularly in remote healthcare systems.
 
 # Summary. An optional shortened abstract.
-summary: A fingertip-sized, high-resolution pneumatic haptic display designed to provide realistic tactile feedback in virtual reality (VR) environments or during robot teleoperation.
+summary: We investigated the capability of a single-point normal force sensor to capture the shape of lumps in phantom skin under three types of motions, including those mimicking palpation touch.
 
 tags:
   - Conference Paper
@@ -52,18 +53,18 @@ featured: true
 #   url: http://example.org
 
 url_pdf: ''
-url_code: 'https://github.com/pijuanyu2022/Soft-Haptic-Display-Toolkit'
+url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: ''
 url_source: ''
-url_video: 'https://www.youtube.com/watch?v=fr15ZlmmxHU'
+url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'The 4 × 4 tactile array haptic display'
+  caption: 'Proposed remote health technology'
   focal_point: ''
   preview_only: false
 
@@ -82,8 +83,6 @@ projects:
 #   Otherwise, set `slides: ""`.
 slides: example
 ---
-
-{{< youtube id="fr15ZlmmxHU" title="Soft Haptic Display (SHD) toolkit" >}}
 
 <!-- {{% callout note %}}
 Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
