@@ -54,9 +54,6 @@ image:
   focal_point: ""
   preview_only: false
 
-# Video
-{{< youtube id="TbYN0pEvcNg" title="Synchronized Visual-haptic Feedback" >}}
-
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
@@ -72,12 +69,4 @@ projects: []
 slides: example
 ---
 
-<!-- {{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). -->
+{{< youtube id="TbYN0pEvcNg" title="Synchronized Visual-haptic Feedback" >}}
