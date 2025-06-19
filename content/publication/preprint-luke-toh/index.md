@@ -35,7 +35,7 @@ summary: In this study, we explore a range of passive presentations for the poss
 tags:
 - Under Review
 
-featured: true
+featured: false
 
 links:
 # - name: Custom Link
