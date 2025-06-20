@@ -66,7 +66,7 @@ education:
 
       Minor in Engineering Management  
 
-      Supervised by [Prof Kevin Lynch and Matthew Elwin] at Center for Robotics and Biosystems (https://robotics.northwestern.edu/).
+      Supervised by Prof Kevin Lynch and Matthew Elwin at Center for Robotics and Biosystems (https://robotics.northwestern.edu/).
 
       Courses included:
       - Robotic Manipulation

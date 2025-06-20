@@ -42,6 +42,11 @@ imaging:
   resampleFilter: lanczos
   quality: 80
   anchor: smart
+  exif:
+    includeFields: ""
+    excludeFields: ".*"
+    disableLatLong: true
+    disableDate: true
 timeout: 600000
 taxonomies:
   author: authors

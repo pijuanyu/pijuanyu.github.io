@@ -11,8 +11,9 @@ authors:
 
 # Author notes (optional)
 author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
+  - 'Co-first author'
+  - 'Co-first author'
+  - 'Corresponding author'
 
 date: '2025-08-17T00:00:00Z'
 doi: ''
@@ -65,7 +66,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Proposed remote health technology'
+  caption: 'Reaction Diffusion Textures'
   focal_point: ''
   preview_only: false
 
