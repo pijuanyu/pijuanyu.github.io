@@ -26,7 +26,7 @@ publishDate: '2025-08-17T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *2025 International Design Engineering Technical Conferences & Computers and Information in Engineering Conference (IDETC-CIE)*
+publication: In *2025 ASME International Design Engineering Technical Conferences & Computers and Information in Engineering Conference (IDETC-CIE)*
 publication_short: In *2025 ASME IDETC-CIE*
 
 abstract: |
