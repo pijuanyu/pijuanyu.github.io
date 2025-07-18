@@ -36,7 +36,7 @@ profiles:
   - icon: brands/instagram
     url: https://www.instagram.com/pijuan_9/?next=%2F&hl=en
   - icon: brands/github
-    url: https://github.com/pijuanyu2022
+    url: https://github.com/pijuanyu
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/pijuanyu/
   - icon: academicons/google-scholar

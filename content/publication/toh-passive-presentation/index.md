@@ -43,7 +43,7 @@ featured: true
 # - name: ""
 #   url: ""
 url_pdf: https://doi.org/10.1109/TOH.2024.3523259
-url_code: 'https://github.com/pijuanyu2022/3D-platform-for-lump-detection'
+url_code: 'https://github.com/pijuanyu/3D-platform-for-lump-detection'
 url_dataset: ''
 url_poster: ''
 url_project: ''
