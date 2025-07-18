@@ -34,7 +34,7 @@ tags: [Conference paper]
 featured: false
 
 image:
-  caption: 'Fingertip-size Tactile Array'
+  caption: 'Oral presentation in UR conference'
   focal_point: Right
 
 #links:
