@@ -1,51 +1,93 @@
-# [Hugo Academic CV Theme](https://github.com/HugoBlox/theme-academic-cv)
+# Pijuan Yu - Personal Academic Website
 
-[![Screenshot](.github/preview.webp)](https://hugoblox.com/templates/)
+[![Website](https://img.shields.io/badge/Website-pijuanyu.github.io-blue?style=for-the-badge)](https://pijuanyu.github.io/)
+[![GitHub](https://img.shields.io/badge/GitHub-pijuanyu-black?style=for-the-badge&logo=github)](https://github.com/pijuanyu)
+[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-Profile-4285f4?style=for-the-badge&logo=google-scholar)](https://scholar.google.com/citations?user=W1t8ALUAAAAJ&hl=en)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0009--7620--3596-green?style=for-the-badge&logo=orcid)](https://orcid.org/my-orcid?orcid=0009-0009-7620-3596)
 
-The Hugo **Academic CV Template** empowers you to easily create your job-winning online resumé, showcase your academic publications, and create online courses or knowledge bases to grow your audience.
+This repository contains the source code for my personal academic website.
 
-[![Get Started](https://img.shields.io/badge/-Get%20started-ff4655?style=for-the-badge)](https://hugoblox.com/templates/)
-[![Discord](https://img.shields.io/discord/722225264733716590?style=for-the-badge)](https://discord.com/channels/722225264733716590/742892432458252370/742895548159492138)  
-[![Twitter Follow](https://img.shields.io/twitter/follow/GetResearchDev?label=Follow%20on%20Twitter)](https://twitter.com/GetResearchDev)
+## About Me
 
-️**Trusted by 250,000+ researchers, educators, and students.** Highly customizable via the integrated **no-code, Hugo Blox Builder**, making every site truly personalized ⭐⭐⭐⭐⭐
+I am a Ph.D. candidate in Mechanical Engineering at Texas A&M University, working under the supervision of [Prof. Rebecca F. Friesen](https://www.friesenhaptics.com/) in the Friesen Haptics Lab. My research focuses on:
 
-Easily write technical content with plain text Markdown, LaTeX math, diagrams, RMarkdown, or Jupyter, and import publications from BibTeX.
+- **Haptic Interfaces** - Developing innovative tactile feedback systems for virtual and augmented reality
+- **Human-Computer Interaction** - Exploring how haptic feedback enhances user experience and performance
+- **Virtual Reality** - Creating immersive VR experiences with realistic touch sensations
+- **Soft Wearable Technology** - Designing flexible, comfortable haptic devices for everyday use
 
-[Check out the latest demo](https://academic-demo.netlify.app/) of what you'll get in less than 10 minutes, or [get inspired by our academics and research groups](https://hugoblox.com/creators/).
+## Research Highlights
 
-The integrated [**Hugo Blox Builder**](https://hugoblox.com) and CMS makes it easy to create a beautiful website for free. Edit your site in the CMS (or your favorite editor), generate it with [Hugo](https://github.com/gohugoio/hugo), and deploy with GitHub or Netlify. Customize anything on your site with widgets, light/dark themes, and language packs.
+My work has been published in top-tier journals and conferences including:
+- IEEE Transactions on Haptics (ToH)
+- IEEE Haptics Symposium
+- IEEE World Haptics Conference
+- IEEE International Conference on Ubiquitous Robots
+- ASME Journal of Computing and Information Science in Engineering (JCISE)
 
-- 👉 [**Get Started**](https://hugoblox.com/templates/)
-- 📚 [View the **documentation**](https://docs.hugoblox.com/)
-- 💬 [Chat with the **Hugo Blox Builder community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@GetResearchDev](https://twitter.com/GetResearchDev) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithHugoBlox](https://twitter.com/search?q=%23MadeWithHugoBlox&src=typed_query)
-- ⬇️ **Automatically import your publications from BibTeX** with the [Hugo Academic CLI](https://github.com/GetRD/academic-file-converter)
-- 💡 [Suggest an improvement](https://github.com/HugoBlox/hugo-blox-builder/issues)
-- ⬆️ **Updating?** View the [Update Guide](https://docs.hugoblox.com/reference/update/) and [Release Notes](https://github.com/HugoBlox/hugo-blox-builder/releases)
+## Website Features
 
-## We ask you, humbly, to support this open source movement
+This website showcases:
+- � **Publications** - My research papers, conference proceedings, and preprints
+- 🎓 **Academic Experience** - Education background and research positions
+- � **Projects** - Open-source projects and research implementations
+- 📢 **Talks & Presentations** - Conference presentations and invited talks
+- 📝 **Blog Posts** - Technical tutorials and research insights
+- 👨‍🏫 **Teaching** - Courses and educational content
 
-Today we ask you to defend the open source independence of the Hugo Blox Builder and themes 🐧
+## Technical Stack
 
-We're an open source movement that depends on your support to stay online and thriving, but 99.9% of our creators don't give; they simply look the other way.
+- **Framework**: Hugo (Static Site Generator)
+- **Theme**: Hugo Blox Academic CV Theme
+- **Hosting**: GitHub Pages
+- **Domain**: Custom GitHub Pages domain
+- **CI/CD**: GitHub Actions for automated deployment
 
-### [❤️ Click here to become a Sponsor, unlocking awesome perks such as _exclusive academic templates and blocks_](https://hugoblox.com/sponsor/)
+## Local Development
 
-<!--
-<p align="center"><a href="https://hugoblox.com/templates/" target="_blank" rel="noopener"><img src="https://hugoblox.com/uploads/readmes/academic_logo_200px.png" alt="Hugo Academic Theme for Hugo Blox Builder"></a></p>
--->
+To run this website locally:
 
-## Demo image credits
+```bash
+# Clone the repository
+git clone https://github.com/pijuanyu/pijuanyu.github.io.git
+cd pijuanyu.github.io
 
-- [Unsplash](https://unsplash.com)
+# Install Hugo (if not already installed)
+# Visit https://gohugo.io/installation/ for installation instructions
 
-## Latest news
+# Run the development server
+hugo server
 
-<!--START_SECTION:news-->
-* [6 Compelling Reasons I Switched from WordPress to Hugo](https:&#x2F;&#x2F;hugoblox.com&#x2F;vs&#x2F;wordpress&#x2F;)
-* [The 7 best landing page builders in 2024](https:&#x2F;&#x2F;hugoblox.com&#x2F;blog&#x2F;7-best-landing-page-builders&#x2F;)
-* [Start a Blog and Make Money in 2024: Here&#39;s What You Need to Know](https:&#x2F;&#x2F;hugoblox.com&#x2F;blog&#x2F;start-a-blog-and-make-money&#x2F;)
-* [Hugo vs Quarto: Which One is Better for 2024?](https:&#x2F;&#x2F;hugoblox.com&#x2F;vs&#x2F;quarto&#x2F;)
-* [Easily make an academic CV website to get more cites and grow your audience 🚀](https:&#x2F;&#x2F;hugoblox.com&#x2F;blog&#x2F;easily-make-academic-website&#x2F;)
-<!--END_SECTION:news-->
+# View the site at http://localhost:1313
+```
+
+## Project Structure
+
+```
+├── content/           # Website content (Markdown files)
+│   ├── authors/       # Author profiles
+│   ├── publication/   # Research publications
+│   ├── project/       # Project descriptions
+│   ├── post/          # Blog posts
+│   ├── event/         # Talks and presentations
+│   └── teaching/      # Teaching materials
+├── config/            # Hugo configuration files
+├── static/            # Static assets (images, PDFs, etc.)
+├── assets/            # Theme assets and media
+└── layouts/           # Custom layout overrides
+```
+
+## Contact
+
+- **Email**: [Contact me through the website](https://pijuanyu.github.io/#contact)
+- **LinkedIn**: [pijuanyu](https://www.linkedin.com/in/pijuanyu/)
+- **GitHub**: [pijuanyu](https://github.com/pijuanyu)
+- **Google Scholar**: [Profile](https://scholar.google.com/citations?user=W1t8ALUAAAAJ&hl=en)
+
+## License
+
+This website is powered by the Hugo Blox Academic CV Theme. The theme is released under the [MIT License](https://github.com/HugoBlox/hugo-blox-builder/blob/main/LICENSE.md).
+
+---
+
+*Last updated: July 2025*
