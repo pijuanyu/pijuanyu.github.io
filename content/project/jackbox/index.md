@@ -10,7 +10,7 @@ tags:
   - Classical Mechanics
   - Computational Physics
 url_code: 'https://github.com/pijuanyu/jackbox'
-url_pdf: 'Project guidelines.pdf'
+url_pdf: 'uploads/Project guidelines.pdf'
 ---
 
 ## Project Overview
@@ -25,7 +25,10 @@ This project presents a comprehensive simulation of multi-body dynamics using La
 
 The system dynamics are governed by the Euler-Lagrange equations:
 
-$$\frac{d}{dt}\left(\frac{\partial L}{\partial \dot{q}}\right) - \frac{\partial L}{\partial q} = Q$$
+```latex
+$$
+\frac{d}{dt}\left(\frac{\partial L}{\partial \dot{q}}\right) - \frac{\partial L}{\partial q} = Q
+$$
 
 where $L = T - V$ is the Lagrangian (kinetic minus potential energy), $q$ represents generalized coordinates, and $Q$ are generalized forces.
 
@@ -36,6 +39,7 @@ The total kinetic energy of the system is expressed as:
 $$KE = \frac{1}{2}(v^b)^T \begin{bmatrix} m I_{4x4} & 0 \\ 0 & I \end{bmatrix} v^b$$
 
 where $v^b$ represents the body velocities, $m$ is the mass, and $I$ is the moment of inertia tensor.
+```
 
 ## System Description
 
