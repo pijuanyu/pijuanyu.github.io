@@ -9,12 +9,13 @@ tags:
   - Collision Detection
   - Computational Mechanics
   - Jupyter Notebook
-url_code: 'https://github.com/pijuanyu/jackbox'
 ---
 
 ## Overview
 
 The **Jackbox** project is a comprehensive multi-body dynamics simulation implemented in Python that demonstrates complex interactions between rigid bodies under external forces. This simulation models a jack (cross-shaped object) bouncing inside a moving box, showcasing realistic physics including gravity, collision detection, energy transfer, and rotational dynamics.
+
+**🔗 [View Source Code on GitHub](https://github.com/pijuanyu/jackbox)**
 
 ## Technical Implementation
 
