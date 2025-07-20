@@ -1,6 +1,6 @@
 ---
-title: Teaching
-summary: My courses
+title: Mechanical
+summary: Selected mechanical projects
 type: landing
 
 cascade:
@@ -11,12 +11,12 @@ cascade:
 
 sections:
   - block: collection
-    id: teaching
+    id: mechanical
     content:
-      title: Teaching
+      title: Mechanical
       filters:
         folders:
-          - teaching
+          - mechanical
     design:
       view: article-grid
       columns: 2
