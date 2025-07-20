@@ -1,7 +1,7 @@
 ---
 title: "Dual UR5 Collaborative Assembly System"
 summary: "A dual-arm collaborative robotic assembly system using two UR5 robots with RG2 grippers, controlled through ROS, MoveIt!, and CoppeliaSim for automated object assembly with conveyor belt integration and Docker containerization."
-date: 2020-10-26
+date: 2021-03-01
 tags:
   - Dual-Arm Robotics
   - Collaborative Assembly
@@ -14,6 +14,10 @@ tags:
   - Robot Coordination
 url_code: 'https://github.com/pijuanyu/dual_arm'
 ---
+
+## Simulation Results
+
+{{< youtube id="Ddppyfx4en4" title="Dual UR5 Collaborative Assembly Demonstration" >}}
 
 ## Project Overview
 

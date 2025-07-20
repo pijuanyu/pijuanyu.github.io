@@ -13,6 +13,10 @@ url_code: 'https://github.com/pijuanyu/jackbox'
 url_pdf: 'uploads/Project guidelines.pdf'
 ---
 
+## Simulation Results
+
+{{< youtube id="cACP5QaSpgo" title="Multi-Body Dynamics Simulation Results" >}}
+
 ## Project Overview
 
 This project presents a comprehensive simulation of multi-body dynamics using Lagrangian mechanics principles to model a jack-in-box system. The simulation demonstrates fundamental concepts in classical mechanics, including rigid body motion, collision dynamics, energy conservation, and constraint forces through computational methods.
@@ -75,10 +79,6 @@ Collision constraints are implemented using:
 - **Contact detection**: Geometric intersection algorithms
 - **Impact response**: Conservation of momentum and energy principles
 - **Friction modeling**: Coulomb friction model at contact points
-
-## Simulation Results
-
-{{< youtube id="cACP5QaSpgo" title="Multi-Body Dynamics Simulation Results" >}}
 
 ### Motion Analysis
 The simulation reveals distinct phases of system behavior:

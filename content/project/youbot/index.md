@@ -1,7 +1,7 @@
 ---
 title: "YouBot Mobile Manipulation: Pick-and-Place Control System"
 summary: "A comprehensive mobile manipulation system implementing trajectory planning, kinematic simulation, and feedback control for a KUKA youBot to autonomously pick up and place objects using Modern Robotics principles."
-date: 2020-10-26
+date: 2020-11-10
 tags:
   - Mobile Manipulation
   - Trajectory Planning
@@ -13,6 +13,10 @@ tags:
   - CoppeliaSim
 url_code: 'https://github.com/pijuanyu/youbot-manipulation'
 ---
+
+## Simulation Results
+
+{{< youtube id="BEbqcsws210" title="YouBot Mobile Manipulation Demonstration" >}}
 
 ## Project Overview
 
@@ -122,10 +126,6 @@ Mobile base odometry follows the algorithm from Chapter 13.4 of Modern Robotics:
 $$\Delta q = F(\Delta\theta)^{-1} \Delta\theta$$
 
 where $F(\Delta\theta)$ relates wheel angle changes to chassis motion.
-
-## Simulation Results
-
-{{< youtube id="BEbqcsws210" title="YouBot Mobile Manipulation Demonstration" >}}
 
 ### Performance Analysis
 
