@@ -15,7 +15,7 @@ sections:
       text: Here are a selection of robotics projects that I have worked on over the years.
       filters:
         folders:
-          - project
+          - robot
     design:
       view: article-grid
       fill_image: false
