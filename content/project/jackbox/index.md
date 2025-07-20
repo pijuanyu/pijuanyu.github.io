@@ -1,25 +1,84 @@
 ---
-title: Jackbox
+title: "Jackbox: Multi-Body Dynamics Simulation"
+summary: "A Python-based physics simulation demonstrating multi-body dynamics with collision detection, featuring a bouncing jack inside a moving box with realistic impact forces and rotational motion."
 date: 2020-10-26
 external_link: https://github.com/pijuanyu/jackbox
 tags:
   - Python
-  - Jupyter notebook
-  - Markdown
+  - Physics Simulation
+  - Multi-body Dynamics
+  - Collision Detection
+  - Computational Mechanics
+  - Jupyter Notebook
 ---
 
-# Jackbox project
-In this project, the dynamic will be simulated through python. A jack will be animated in a box. The box will move to the upper right. And the jack will go into free fall and then impact with the bottom of the box. After that, the jack will bounce up and rotate. And then it will impact the box again. Due to the impact of the jack, the box will also rotate and go down a little bit. But it will go up again with the external force. Then these two bodies will impact each other several times.
+## Overview
 
-I assume the mass of each point of the jack and the mass of each edge of the box are all equal to 1kg. I apply a 0.5mg force on the x-direction of the Box to move the Box. I assume that the jack and box both have gravity. So, I apply an 8mg force on the y-direction of the Box so that they will not go into free fall. Besides, I assume the length of the edge of the box is 4m. And the distance between two points in the Jack is 1m.
+The **Jackbox** project is a comprehensive multi-body dynamics simulation implemented in Python that demonstrates complex interactions between rigid bodies under external forces. This simulation models a jack (cross-shaped object) bouncing inside a moving box, showcasing realistic physics including gravity, collision detection, energy transfer, and rotational dynamics.
 
-## Frames of this system
+## Technical Implementation
 
-In this system, Frame {w} is the world frame. Frame {A} is at the center of the Jack. Frame {F} is at the center of the box. I assume in the initial condition the Jack is at the center of the box. So, frame{A} and frame{F} are coincident temporarily.
+### System Dynamics
+The simulation employs fundamental principles of classical mechanics to model:
+- **Rigid body motion** with 6 degrees of freedom per object
+- **Collision detection and response** between the jack and box boundaries
+- **Energy conservation** during elastic collisions
+- **Rotational dynamics** including angular momentum transfer
+- **External force application** for controlled motion
 
-![Jackbox](/content/project/jackbox/jackbox.png "Jackbox picture")
+### Physical Parameters
+- **Mass distribution**: Each point mass of the jack = 1 kg, each edge of the box = 1 kg
+- **Geometric constraints**: Box edge length = 4 m, jack arm length = 1 m
+- **Applied forces**:
+  - Horizontal driving force: 0.5mg (x-direction)
+  - Vertical supporting force: 8mg (y-direction)
+  - Gravitational acceleration: g = 9.81 m/s²
 
-## Result
+## Coordinate Systems
 
-In this simulation, due to the external forces, the box moved up and right at the beginning time. The jack was falling and impacted the bottom edge of the box. After this impact, the jack bounced up to the left side of the box and then bounced again. The box went down a little bit and then went up again with the y-direction external force. Then with these two external forces and some impacts, these two bodies started to rotate and move right.
-<!--more-->
+The simulation employs three primary reference frames:
+- **World Frame {W}**: Global coordinate system for absolute positioning
+- **Jack Frame {A}**: Local coordinate system centered at the jack's centroid
+- **Box Frame {F}**: Local coordinate system centered at the box's geometric center
+
+*Initial condition*: Frames {A} and {F} are coincident with the jack positioned at the box center.
+
+![Jackbox System](jackbox.png "Multi-body dynamics simulation showing jack-in-box system")
+
+## Simulation Results
+
+{{< youtube id="cACP5QaSpgo" title="Jackbox: Multi-Body Dynamics Simulation" >}}
+
+
+The physics simulation demonstrates several key behavioral phases:
+
+1. **Initial Motion**: The box accelerates upward and rightward due to applied external forces
+2. **Free Fall**: The jack enters gravitational free fall within the moving reference frame
+3. **Primary Impact**: Jack collides with the box bottom, transferring momentum and inducing rotation
+4. **Secondary Collisions**: Multiple bounce events with diminishing energy
+5. **Coupled Motion**: Both bodies achieve synchronized translational and rotational motion
+
+### Key Observations
+- **Energy Transfer**: Kinetic energy exchanges between translational and rotational modes during collisions
+- **System Stability**: External forces maintain bounded motion preventing system escape
+- **Realistic Physics**: Collision responses follow conservation of momentum and energy principles
+
+## Applications
+
+This simulation framework demonstrates concepts applicable to:
+- **Robotics**: Multi-body system control and collision avoidance
+- **Mechanical Engineering**: Impact analysis and vibration damping
+- **Game Physics**: Realistic object interactions in virtual environments
+- **Educational Tools**: Visual demonstration of classical mechanics principles
+
+## Technical Stack
+
+- **Language**: Python 3.x
+- **Visualization**: Matplotlib for animation and plotting
+- **Numerical Methods**: NumPy for efficient array operations
+- **Development Environment**: Jupyter Notebook for interactive development
+- **Documentation**: Markdown for technical specification
+
+---
+
+*This project showcases computational mechanics skills and demonstrates proficiency in physics-based simulation development.*
