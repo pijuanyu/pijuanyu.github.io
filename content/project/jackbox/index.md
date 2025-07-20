@@ -2,7 +2,6 @@
 title: "Jackbox: Multi-Body Dynamics Simulation"
 summary: "A Python-based physics simulation demonstrating multi-body dynamics with collision detection, featuring a bouncing jack inside a moving box with realistic impact forces and rotational motion."
 date: 2020-10-26
-external_link: https://github.com/pijuanyu/jackbox
 tags:
   - Python
   - Physics Simulation
@@ -10,6 +9,7 @@ tags:
   - Collision Detection
   - Computational Mechanics
   - Jupyter Notebook
+url_code: 'https://github.com/pijuanyu/jackbox'
 ---
 
 ## Overview
