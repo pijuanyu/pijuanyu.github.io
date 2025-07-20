@@ -83,7 +83,7 @@ projects:
 slides: example
 ---
 
-{{< youtube id="fr15ZlmmxHU" title="Soft Haptic Display (SHD) toolkit" >}}
+{{< youtube id="cACP5QaSpgo" title="Jackbox demo" >}}
 
 <!-- {{% callout note %}}
 Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
