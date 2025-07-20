@@ -54,7 +54,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
+url_pdf: 'uploads/Reaction_Diffusion_Paper_ASME_Conference.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''

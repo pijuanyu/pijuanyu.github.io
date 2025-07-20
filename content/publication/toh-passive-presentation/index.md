@@ -42,7 +42,7 @@ featured: true
 # links:
 # - name: ""
 #   url: ""
-url_pdf: https://doi.org/10.1109/TOH.2024.3523259
+url_pdf: 'uploads/Pijuan_Palpation_Paper_Draft_ToH_version.pdf'
 url_code: 'https://github.com/pijuanyu/3D-platform-for-lump-detection'
 url_dataset: ''
 url_poster: ''

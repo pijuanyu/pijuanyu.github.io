@@ -51,7 +51,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
+url_pdf: 'uploads/2025_UR_Conference_Paper.pdf'
 url_code: 'https://github.com/pijuanyu2022/Soft-Haptic-Display-Toolkit'
 url_dataset: ''
 url_poster: ''
