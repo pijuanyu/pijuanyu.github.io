@@ -7,9 +7,9 @@
 
     {{/* Display tags if they exist */}}
     {{ if .Params.tags }}
-      <div class="article-tags">
+      <div class="article-tags" style="margin-bottom: 1rem;">
         {{ range $index, $tag := .Params.tags }}
-          <a class="badge badge-light" href="{{ (site.GetPage "taxonomyTerm" "tags" $tag).RelPermalink }}">{{ $tag }}</a>
+          <a class="badge badge-light" href="{{ (site.GetPage "taxonomyTerm" "tags" $tag).RelPermalink }}" style="margin-right: 0.5rem; margin-bottom: 0.25rem; display: inline-block;">{{ $tag }}</a>
         {{ end }}
       </div>
     {{ end }}
