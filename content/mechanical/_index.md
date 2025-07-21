@@ -13,7 +13,7 @@ sections:
   - block: collection
     id: mechanical
     content:
-      title: Mechanical
+      title: Selected Mechanical Projects
       filters:
         folders:
           - mechanical

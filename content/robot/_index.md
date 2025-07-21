@@ -1,23 +1,24 @@
 ---
-title: 'Robotics'
-date: 2024-05-19
+title: Robotics
+summary: Selected robotics projects
 type: landing
 
-design:
-  # Section spacing
-  spacing: '5rem'
+cascade:
+  - _target:
+      kind: page
+    params:
+      show_breadcrumb: true
 
-# Page sections
 sections:
   - block: collection
+    id: robotics
     content:
       title: Selected Robotics Projects
       text: Here are a selection of robotics projects that I have worked on over the years.
       filters:
         folders:
-          - robot
+          - robotic
     design:
       view: article-grid
-      fill_image: false
-      columns: 3
+      columns: 2
 ---
