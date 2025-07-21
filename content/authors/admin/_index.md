@@ -66,7 +66,7 @@ education:
 
       Minor in Engineering Management  
 
-      Supervised by Prof Kevin Lynch and Matthew Elwin at Center for Robotics and Biosystems (https://robotics.northwestern.edu/).
+      Supervised by Prof Kevin Lynch and Matthew Elwin at [Center for Robotics and Biosystems] (https://robotics.northwestern.edu/).
 
       Courses included:
       - Robotic Manipulation
@@ -140,20 +140,28 @@ work:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: Codes
     items:
       - name: Python
         description: ''
         percent: 80
-        icon: code-bracket
-      - name: Data Science
+        icon: custom/python
+      - name: C/C++
         description: ''
         percent: 100
-        icon: chart-bar
-      - name: SQL
+        icon: custom/C++
+      - name: C#
         description: ''
         percent: 40
-        icon: circle-stack
+        icon: custom/C_sharp
+      - name: R
+        description: ''
+        percent: 40
+        icon: custom/R
+      - name: MATLAB
+        description: ''
+        percent: 40
+        icon: custom/matlab
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
