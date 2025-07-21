@@ -1,24 +1,33 @@
 {{ define "main" }}
-<article class="article">
+<div class="universal-wrapper">
+  <div class="row">
+    <div class="col-lg-12">
+      <article class="article">
+        
+        <header>
+          <h1 class="article-title">{{ .Title }}</h1>
+          {{ if .Params.summary }}
+            <p class="article-summary">{{ .Params.summary }}</p>
+          {{ end }}
+        </header>
 
-  {{ partial "page_header.html" . }}
+        <div class="article-container">
+          <div class="article-style">
+            {{ .Content }}
+          </div>
 
-  <div class="article-container">
+          {{ if .Params.tags }}
+          <div class="article-tags" style="margin-top: 2rem;">
+            <h4>Tags:</h4>
+            {{ range .Params.tags }}
+            <a class="badge badge-light mr-1 mb-1" href="{{ (site.GetPage "taxonomyTerm" "tags" .).RelPermalink }}">{{ . }}</a>
+            {{ end }}
+          </div>
+          {{ end }}
+        </div>
 
-    <div class="article-style">
-      {{ .Content }}
-
-      {{ if .Params.tags }}
-      <div class="article-tags">
-        {{ range .Params.tags }}
-        <a class="badge badge-light" href="{{ (site.GetPage "taxonomyTerm" "tags" .).RelPermalink }}">{{ . }}</a>
-        {{ end }}
-      </div>
-      {{ end }}
+      </article>
     </div>
-
-    {{ partial "page_footer.html" . }}
-
   </div>
-</article>
+</div>
 {{ end }}
