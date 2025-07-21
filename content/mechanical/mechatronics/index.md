@@ -5,6 +5,7 @@ date: 2021-05-26
 type: docs
 tags:
   - Mechatronics
+  - C
   - IMU
   - PCB Design
   - Microchip PIC32
