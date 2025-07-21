@@ -145,7 +145,7 @@ skills:
       - name: Python
         description: ''
         percent: 80
-        icon: custom/python
+        icon: custom/python_icon
       - name: C/C++
         description: ''
         percent: 100
@@ -157,7 +157,7 @@ skills:
       - name: R
         description: ''
         percent: 40
-        icon: custom/r
+        icon: custom/rstudio
       - name: MATLAB
         description: ''
         percent: 40
@@ -167,23 +167,27 @@ skills:
       - name: ROS1/ROS2
         description: ''
         percent: 80
-        icon: custom/python
-      - name: C/C++
+        icon: custom/ros
+      - name: OpenCV
         description: ''
         percent: 100
-        icon: custom/C++
-      - name: C#
+        icon: custom/opencv
+      - name: Gazebo
         description: ''
         percent: 40
-        icon: custom/C_sharp
-      - name: R
+        icon: custom/gazebo
+      - name: Unity
         description: ''
         percent: 40
-        icon: custom/R
-      - name: MATLAB
+        icon: custom/unity
+      - name: Raspberry Pi
         description: ''
         percent: 40
-        icon: custom/matlab
+        icon: custom/raspberry_pi
+      - name: Arduino
+        description: ''
+        percent: 40
+        icon: custom/arduino
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
