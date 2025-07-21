@@ -1,7 +1,8 @@
 ---
 title: "Finite Element Analysis Projects"
 summary: "The objective of this project is to design and test the structure of the support of a roller coaster track under various loading conditions. We implement a truss structure as the support of the track and test the structure in three different scenarios. We then compare the FEA results from Ansys with analytical results of buckling load and yield strength of the material to decide whether the design is feasible."
-date: 2020-10-26
+date: 2021-03-16
+type: docs
 tags:
   - Finite Element Analysis (FEA)
   - ANSYS

@@ -12,6 +12,7 @@ author_notes:
 # - "Equal contribution"
 date: "2025-06-19T00:00:00Z"
 doi: "https://doi.org/10.1109/TOH.2024.3523259"
+type: docs
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2024-12-26"

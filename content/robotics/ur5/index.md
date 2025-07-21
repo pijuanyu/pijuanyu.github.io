@@ -2,6 +2,7 @@
 title: "Dual UR5 Collaborative Assembly System"
 summary: "A dual-arm collaborative robotic assembly system using two UR5 robots with RG2 grippers, controlled through MoveIt! and CoppeliaSim for automated object assembly with conveyor belt integration and Docker containerization."
 date: 2021-03-01
+type: docs
 tags:
   - Robotic Manipulation
   - Python

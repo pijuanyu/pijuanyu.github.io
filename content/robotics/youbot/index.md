@@ -2,6 +2,7 @@
 title: "YouBot Mobile Manipulation: Pick-and-Place Control System"
 summary: "A comprehensive mobile manipulation system implementing trajectory planning, kinematic simulation, and feedback control for a KUKA youBot to autonomously pick up and place objects using Modern Robotics principles."
 date: 2020-11-10
+type: docs
 tags:
   - Robotic Manipulation
   - MATLAB

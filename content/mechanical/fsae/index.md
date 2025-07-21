@@ -1,7 +1,8 @@
 ---
 title: "SAE Formula Electric"
 summary: "Society of Automotive Engineers (SAE) Formula Electric is the second year of a continuation project aimed at establishing an SAE electric vehicle at Florida Tech. The project carries on the designs of the accumulator and high voltage testbed from last year’s Formula Electric teams. Additionally, through a combined effort of three electrical and one mechanical team, this team designed, tested, and produced three additional systems: high voltage box, low voltage box, and cooling system. The goal was to integrate and mount the accumulator, motor controller, motor, high voltage box, low voltage box, and cooling system with the limited user interface on the chassis."
-date: 2021-03-10
+date: 2019-05-10
+type: docs
 tags:
   - MATLAB Simulink
   - MATLAB
@@ -10,38 +11,25 @@ tags:
   - Workbench
 ---
 
-## Project overview
+## Abstarct
 
-Simulated annealing is a stochastic technique for searching the global optimum of a given function. This approach can deal with highly nonlinear functions with many constraints. The most important advantage of this algorithm is that it can avoid finding the local minimum solution through probabilistic decisions. Besides, this technique is very versatile for almost all functions. So, we decided to build a generalized code for this algorithm in MATLAB and try to analyze this approach through several tests.
+SAE Formula Electric is the second year of a continuation project aimed at establishing an SAE electric vehicle at Florida Tech. The project carries on the designs of the accumulator and high voltage testbed from last year’s Formula Electric teams. Additionally, through a combined effort of three electrical and one mechanical team, this team designed, tested, and produced three additional systems: high voltage box, low voltage box, and cooling system. The goal was to integrate and mount the accumulator, motor controller, motor, high voltage box, low voltage box, and cooling system with the limited user interface on the chassis.
 
-The primary objective of this project is to make sure our algorithm can find the optimal solution for every test from our several nonlinear functions. We will measure our algorithm in terms of robustness, efficiency, and accuracy. And the result of our algorithm will be compared with the iSight so that we can find the defect of our algorithm and try to improve it.
+## Cooling System Design
 
-## Six-hump Camel function
+![FSAE](FEA1.png "CAD of the cooling system")
 
-![SA](SA1.png "Six-hump Camel function")
+The cooling system components support the safety and reliability of the car by ensuring the motor and motor controller maintain operating temperatures. The cooling system comprises a radiator, fan shroud, electric fan, and water pump. The radiator is a heat exchanger between the hot coolant flowing through the system and the surrounding. The electric fan and shroud increase airflow through the radiator which provides more efficient heat transfer. The water pump regulates the fluid pressure and maintains a steady flow rate of 8 liters per minute within the system.
 
-The first example is the six-hump Camel function. The reason why we choose this function is that there are six local minimum solutions and two global minimum solutions. We expected our algorithm to find out these two global minimum solutions (two red points in the left graph) and avoid becoming trapped in these six local solutions.
+![FSAE](FEA2.png "Block Diagram of the cooling system")
 
-### Result from our algorithm
+The block diagram above shows the continuous flow of coolant through the system. The pump pushes the coolant through the motor and motor controller. As the coolant runs through the motor and motor controller, it absorbs thermal energy due to the temperature gradient. The heated coolant then runs through the radiator. The radiator reduces the thermal energy in the system by transferring the heat into the air. The radiator’s heat exchange rate is crucial to match the propulsion system’s continuous thermal energy productions. The radiator was chosen based on thermal system design calculations for the desired temperatures and heat exchange effectiveness.
 
-![SA](SA2.png "Results")
-![SA](SA3.png "Results")
+## Simulation in simulink
 
-The plot above shows the result of our MATLAB implementation of the problem at (1.5, -0.1). In these 10 tests, there are 6 trails that approached the global optimum solution. Each trail takes about 40 iterations. The reason causing this is that the temperature profile and the step size we choose, make a worse state less likely to be accepted as iteration increases so that the result can be converted quickly and stabilized. This is a tradeoff between efficiency and accuracy.
+This is a simulation to verify our calculations. MATLAB and Simulink were used to perform the simulations. The setup, seen in the below graph, includes the fan, water pump, radiator, hoses, and tankless water heater. There are three cycles in this system: water cycle, airflow cycle, and heat flow cycle. In Simulink, the yellow line is the water cycle; the purple line is the airflow rate; the orange line is the heat flow cycle. 
 
-### Result from iSight (the standard solution)
+![FSAE](FEA3.png "Result")
+![FSAE](FEA4.png "Result")
 
-![SA](SA4.png "iSight")
-
-Compared with the MATLAB result, the iSight result is much more accurate. It can always produce the optimal solutions no matter how many times we test it. And this 15 iSight method can still accept a high energy state at the end of the iterations. That means it can still be capable of getting the other optimal solutions in the end. By contrast, the temperature profile in our approach eventually becomes zero, which means the probability P decreases to zero and it cannot accept a higher energy state anymore. However, our MATLAB technique takes fewer iterations. The iSight technique usually takes around 700 iterations and our approach only takes approximately 60 iterations. That means our approach has higher efficiency, even though it has lower accuracy.
-
-## Non-Convex Function Example
-
-![SA](SA5.png "example")
-
-The second function we tested has one global optimum in the middle but is surrounded by multiple local optimum, which increase the difficulties of the algorithm searching for a global optimization.
-
-![SA](SA6.png "results")
-![SA](SA7.png "results")
-
-There are many local minimums surrendered at the global optimum point, as a result, 5 out of 5 runs were able to get to the global optimum. The temperature profile was set to a constant decay factor for faster iterations. A way to improve the result could be increasing the step size and adjusting the temperature profile, or running the solver ten times and selecting the most optimized result.
+The simulation results can be seen in the above graph. The temperature of the input heat water increases logarithmically till it approaches a steady state after 300 s with a value of 56.92 C. The temperature of the output cool water decreases exponentially till it reaches a steady state after 50 s at 33.79 C.
