@@ -49,7 +49,7 @@ $$T_{sb}(q) = \begin{bmatrix}
 0 & 0 & 1 & 0.0963 \\
 0 & 0 & 0 & 1
 \end{bmatrix}$$
-{{< math >}}
+{{< /math >}}
 
 where $q = (\phi, x, y)$ represents the chassis configuration.
 
@@ -59,7 +59,7 @@ The end-effector configuration is computed using the product of exponentials for
 
 {{< math >}}
 $$T_{se}(\theta) = T_{sb}(q) T_{b0} e^{[\mathcal{B}_1]\theta_1} e^{[\mathcal{B}_2]\theta_2} \cdots e^{[\mathcal{B}_5]\theta_5} M_{0e}$$
-{{< math >}}
+{{< /math >}}
 
 where $\mathcal{B}_i$ are the body screw axes and $\theta = (\theta_1, ..., \theta_5)$ are joint angles.
 
@@ -69,7 +69,7 @@ The mobile manipulator Jacobian combines base and arm contributions:
 
 {{< math >}}
 $$\mathcal{V}_e = J_e(\theta) \dot{u}$$
-{{< math >}}
+{{< /math >}}
 
 where $\dot{u} = (u_1, u_2, u_3, u_4, \dot{\theta}_1, ..., \dot{\theta}_5)^T$ contains wheel speeds and joint velocities.
 
@@ -81,7 +81,7 @@ The system implements a feedforward-plus-PI controller:
 
 {{< math >}}
 $$\mathcal{V}(t) = [Ad_{X^{-1}X_d}]\mathcal{V}_d(t) + K_p X_{err}(t) + K_i \int_0^t X_{err}(\tau) d\tau$$
-{{< math >}}
+{{< /math >}}
 
 where:
 - $\mathcal{V}_d(t)$: feedforward reference twist
@@ -127,7 +127,9 @@ testJointLimits(theta)
 
 Mobile base odometry follows the algorithm from Chapter 13.4 of Modern Robotics:
 
+{{< math >}}
 $$\Delta q = F(\Delta\theta)^{-1} \Delta\theta$$
+{{< /math >}}
 
 where $F(\Delta\theta)$ relates wheel angle changes to chassis motion.
 
