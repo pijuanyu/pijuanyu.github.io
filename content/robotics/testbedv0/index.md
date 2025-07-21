@@ -11,8 +11,12 @@ tags:
   - Arduino
   - Stepper motors
 url_code: 'https://github.com/pijuanyu/3D-platform-for-lump-detection'
+related:
+  - content/publication/toh-passive-presentation
 ---
 ## Demonstration
+
+![tb0](overview.jpg "Experiment overview.")
 
 {{< youtube id="TbYN0pEvcNg" title="Synchronized visual-haptic feedback" >}}
 
