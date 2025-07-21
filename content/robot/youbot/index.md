@@ -3,14 +3,10 @@ title: "YouBot Mobile Manipulation: Pick-and-Place Control System"
 summary: "A comprehensive mobile manipulation system implementing trajectory planning, kinematic simulation, and feedback control for a KUKA youBot to autonomously pick up and place objects using Modern Robotics principles."
 date: 2020-11-10
 tags:
-  - Mobile Manipulation
-  - Trajectory Planning
-  - Feedback Control
-  - Modern Robotics
+  - Robotic Manipulation
   - MATLAB
-  - Kinematics
-  - Jacobian Control
   - CoppeliaSim
+  - Linux
 url_code: 'https://github.com/pijuanyu/youbot-manipulation'
 ---
 

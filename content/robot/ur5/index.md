@@ -1,17 +1,14 @@
 ---
 title: "Dual UR5 Collaborative Assembly System"
-summary: "A dual-arm collaborative robotic assembly system using two UR5 robots with RG2 grippers, controlled through ROS, MoveIt!, and CoppeliaSim for automated object assembly with conveyor belt integration and Docker containerization."
+summary: "A dual-arm collaborative robotic assembly system using two UR5 robots with RG2 grippers, controlled through MoveIt! and CoppeliaSim for automated object assembly with conveyor belt integration and Docker containerization."
 date: 2021-03-01
 tags:
-  - Dual-Arm Robotics
-  - Collaborative Assembly
-  - ROS
+  - Robotic Manipulation
+  - Python
   - MoveIt!
-  - UR5
   - CoppeliaSim
   - Docker
-  - Python
-  - Robot Coordination
+  - Linux
 url_code: 'https://github.com/pijuanyu/dual_arm'
 ---
 
@@ -37,7 +34,6 @@ This project presents a sophisticated dual-arm collaborative robotic assembly sy
 ### Software Stack
 - **Simulation Platform**: CoppeliaSim with physics engine
 - **Motion Planning**: MoveIt! framework for trajectory generation
-- **Control Interface**: ROS Melodic with custom Python controllers
 - **Communication**: CoppeliaSim Remote API for sensor integration
 - **Containerization**: Docker environment for cross-platform deployment
 
@@ -194,7 +190,7 @@ roslaunch dual_arm total.launch          # Complete system
 
 ## Technical Stack Summary
 
-**Programming Languages**: Python 3.7+, C++ (ROS nodes)
+**Programming Languages**: Python 3.7
 **Frameworks**: ROS Melodic, MoveIt!, OpenCV
 **Simulation**: CoppeliaSim 4.1+ with Bullet Physics Engine
 **Hardware Interface**: Universal Robot ROS drivers, Robotiq gripper drivers

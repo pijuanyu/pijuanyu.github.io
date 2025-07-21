@@ -4,17 +4,18 @@ summary: "The final goal of this project is to control a group of three omnidire
 date: 2021-12-01
 tags:
   - Mobile Robot
-  - Robotic manipulation
-  - ROS
-  - Delta robot
   - C++
-  - Python
-  - Computer vision
+  - ROS 1 
+  - Navigation
+  - OpenCV
+  - Linux
 url_code: 'https://github.com/pijuanyu/t265_pkg'
 ---
 ## Demonstration
 
 {{< youtube id="014SftFy5WY" title="Formation Control Demonstration" >}}
+
+{{< youtube id="nVxHEVh_cFk" title="SLAM Demonstration" >}}
 
 ## Project Overview
 
