@@ -1,24 +1,23 @@
 {{ define "main" }}
 <article class="article">
 
-  {{ partial "page_header" . }}
+  {{ partial "page_header.html" . }}
 
   <div class="article-container">
 
-    {{/* Display tags if they exist */}}
-    {{ if .Params.tags }}
-      <div class="article-tags" style="margin-bottom: 1rem;">
-        {{ range $index, $tag := .Params.tags }}
-          <a class="badge badge-light" href="{{ (site.GetPage "taxonomyTerm" "tags" $tag).RelPermalink }}" style="margin-right: 0.5rem; margin-bottom: 0.25rem; display: inline-block;">{{ $tag }}</a>
-        {{ end }}
-      </div>
-    {{ end }}
-
     <div class="article-style">
       {{ .Content }}
+
+      {{ if .Params.tags }}
+      <div class="article-tags">
+        {{ range .Params.tags }}
+        <a class="badge badge-light" href="{{ (site.GetPage "taxonomyTerm" "tags" .).RelPermalink }}">{{ . }}</a>
+        {{ end }}
+      </div>
+      {{ end }}
     </div>
 
-    {{ partial "page_footer" . }}
+    {{ partial "page_footer.html" . }}
 
   </div>
 </article>
