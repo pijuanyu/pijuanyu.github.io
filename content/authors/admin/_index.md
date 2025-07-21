@@ -228,14 +228,14 @@ awards:
     awarder: J. Mike Walker ’66 Department of Mechanical Engineering in Texas A&M University
     icon: custom/tamu
     summary: |
-      2024 Travel award for 2024 IEEE Haptics Symposium
+      Travel award for 2024 IEEE Haptics Symposium
   - title: 2023 Graduate Student Travel Award
     url: https://grad.tamu.edu/funding-opportunities-for-graduate-students/graduate-student-travel-awards
     date: '2023-05-25'
     awarder: J. Mike Walker ’66 Department of Mechanical Engineering in Texas A&M University
-    icon: custom/tamu
+    icon: custom/arduino
     summary: |
-      2023 Travel award for 2023 ASME IDETC-CIE Conference
+      Travel award for 2023 ASME IDETC-CIE Conference
   - title: Cum Laude
     url: https://www.fit.edu/
     date: '2020-05-06'
