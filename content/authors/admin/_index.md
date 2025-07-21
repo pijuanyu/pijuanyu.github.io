@@ -149,6 +149,28 @@ skills:
       - name: C/C++
         description: ''
         percent: 100
+        icon: custom/c++
+      - name: C#
+        description: ''
+        percent: 40
+        icon: custom/c_sharp
+      - name: R
+        description: ''
+        percent: 40
+        icon: custom/r
+      - name: MATLAB
+        description: ''
+        percent: 40
+        icon: custom/matlab
+  - name: Robotics
+    items:
+      - name: ROS1/ROS2
+        description: ''
+        percent: 80
+        icon: custom/python
+      - name: C/C++
+        description: ''
+        percent: 100
         icon: custom/C++
       - name: C#
         description: ''
