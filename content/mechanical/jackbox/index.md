@@ -33,7 +33,7 @@ The system dynamics are governed by the Euler-Lagrange equations:
 $$
 \frac{d}{dt}\left(\frac{\partial L}{\partial \dot{q}}\right) - \frac{\partial L}{\partial q} = Q
 $$
-{{< math >}}
+{{< /math >}}
 
 where $L = T - V$ is the Lagrangian (kinetic minus potential energy), $q$ represents generalized coordinates, and $Q$ are generalized forces.
 
@@ -45,7 +45,7 @@ The total kinetic energy of the system is expressed as:
 $$
 KE = \frac{1}{2}(v^b)^T \begin{bmatrix} m I_{4x4} & 0 \\ 0 & I \end{bmatrix} v^b
 $$
-{{< math >}}
+{{< /math >}}
 
 where $v^b$ represents the body velocities, $m$ is the mass, and $I$ is the moment of inertia tensor.
 
