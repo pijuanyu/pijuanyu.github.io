@@ -1,0 +1,25 @@
+{{ define "main" }}
+<article class="article">
+
+  {{ partial "page_header" . }}
+
+  <div class="article-container">
+
+    {{/* Display tags if they exist */}}
+    {{ if .Params.tags }}
+      <div class="article-tags">
+        {{ range $index, $tag := .Params.tags }}
+          <a class="badge badge-light" href="{{ (site.GetPage "taxonomyTerm" "tags" $tag).RelPermalink }}">{{ $tag }}</a>
+        {{ end }}
+      </div>
+    {{ end }}
+
+    <div class="article-style">
+      {{ .Content }}
+    </div>
+
+    {{ partial "page_footer" . }}
+
+  </div>
+</article>
+{{ end }}
