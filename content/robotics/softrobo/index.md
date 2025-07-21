@@ -1,7 +1,7 @@
 ---
 title: "Soft Haptics Display Toolkit"
 summary: "This study presented a soft haptic display toolkit. It provides a rapid prototyping approach and real-time wireless control for a low-cost, 4×4 soft wearable fingertip-sized tactile display with a spatial resolution of 4 mm. The characterization results show the display’s performance with a maximum vertical displacement of 1.8 mm, a rise time of 0.25 second, and a maximum refresh rate of 8 Hz. This technology can be implemented to develop a high resolution remote haptic communication system."
-date: 2023-05-01
+date: 2025-07-01
 type: docs
 tags:
   - Haptics
@@ -41,6 +41,6 @@ A **fingertip-sized, high-resolution pneumatic haptic display** designed to prov
 
 ## Screenshots
 
-![SoftRobo](System Overview.png "Soft Haptics Display Toolkit Overview.")
+![SoftRobo](System.png "Soft Haptics Display Toolkit Overview.")
 
 The **4 × 4 tactile array haptic display (red)** is connected to the **control box (white)** via transparent air tubes. The control box communicates with the laptop **wirelessly** using a socket communication method.

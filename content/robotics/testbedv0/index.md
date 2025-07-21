@@ -1,7 +1,7 @@
 ---
 title: "Remote Palpation - Testbed v0"
 summary: "This testbed enables participants in roles of nurse and doctor to simultaneously feel two identical tissue phantoms. The nurse actively palpates the tissue, while the doctor’s passive hand feels the same sensations by having the phantom move with respect to their hand. We are using this platform to study impacts of embodiment on experience of the doctor, and to observe psychological impacts and communication strategies between doctor and nurse roles."
-date: 2023-05-01
+date: 2023-06-01
 type: docs
 tags:
   - Haptics
