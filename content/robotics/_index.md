@@ -17,7 +17,7 @@ sections:
       text: Here are a selection of robotics projects that I have worked on over the years.
       filters:
         folders:
-          - robotic
+          - robotics
     design:
       view: article-grid
       columns: 2
