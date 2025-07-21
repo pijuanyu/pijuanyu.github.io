@@ -2,6 +2,7 @@
 title: "Collaborative Manipulation"
 summary: "The final goal of this project is to control a group of three omnidirectional robots to move some heavy objects together. There are two parts to this robot. The top half part of this robot is a delta robot, which is used to withstand some heavy objects. The bottom half part of this robot is an omnidirectional mobile robot with four mecanum wheels."
 date: 2021-12-01
+type: docs
 tags:
   - Mobile Robot
   - C++

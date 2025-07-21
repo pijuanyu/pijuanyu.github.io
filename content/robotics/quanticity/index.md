@@ -2,6 +2,7 @@
 title: "Quanticity Internship"
 summary: "The purpose of this internship is to complete the basic autonomy of a ground vehicle. I will complete the SLAM and navigation based on LIDAR LD06, IMU, a depth camera and RGB camera. I used ROS2 galactic, OpenCV and Navigation2 to finish the whole project. Before running navigation in the physical robots, I will test these approaches in the Gazebo Simulation platform."
 date: 2022-03-05
+type: docs
 tags:
   - Mobile Robot
   - Python

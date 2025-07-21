@@ -1,11 +1,13 @@
 ---
-title: "Simulated Annealing"
-summary: "Simulated annealing is a stochastic technique for searching the global optimum of a given function. This approach can deal with highly nonlinear functions with many constraints. The most important advantage of this algorithm is that it can avoid finding the local minimum solution through probabilistic decisions. Besides, this technique is very versatile for almost all functions. So, we decided to build a generalized code for this algorithm in MATLAB and try to analyze this approach through several tests."
+title: "SAE Formula Electric"
+summary: "Society of Automotive Engineers (SAE) Formula Electric is the second year of a continuation project aimed at establishing an SAE electric vehicle at Florida Tech. The project carries on the designs of the accumulator and high voltage testbed from last year’s Formula Electric teams. Additionally, through a combined effort of three electrical and one mechanical team, this team designed, tested, and produced three additional systems: high voltage box, low voltage box, and cooling system. The goal was to integrate and mount the accumulator, motor controller, motor, high voltage box, low voltage box, and cooling system with the limited user interface on the chassis."
 date: 2021-03-10
-type: docs
 tags:
-  - Simulated Annealing Algorithm
-  - iSight
+  - MATLAB Simulink
+  - MATLAB
+  - Solidworks
+  - Finite Element Analysis (FEA)
+  - Workbench
 ---
 
 ## Project overview

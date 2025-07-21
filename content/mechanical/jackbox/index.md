@@ -2,6 +2,7 @@
 title: "Jackbox: Multi-Body Dynamics Simulation"
 summary: "A comprehensive multi-body dynamics simulation implementing Lagrangian mechanics for a jack-in-box system with collision detection, energy conservation, and realistic physics modeling using Python."
 date: 2020-10-26
+type: docs
 tags:
   - Multi-body Dynamics
   - Lagrangian Mechanics

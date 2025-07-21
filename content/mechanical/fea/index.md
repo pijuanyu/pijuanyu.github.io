@@ -7,8 +7,6 @@ tags:
   - ANSYS
   - Solidworks
   - Workbench
-url_code: 'https://github.com/pijuanyu/jackbox'
-url_pdf: 'uploads/Project guidelines.pdf'
 ---
 
 ## Roller Coaster Support Structure Design
