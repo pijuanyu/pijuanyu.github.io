@@ -1,9 +1,10 @@
 ---
 title: "Mechatronics"
 summary: "Mechatronics projects."
-date: 2020-10-26
+date: 2021-05-26
 type: docs
 tags:
+  - Mechatronics
   - IMU
   - PCB Design
   - Microchip PIC32

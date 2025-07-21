@@ -1,7 +1,7 @@
 ---
 title: "SAE Formula Electric"
 summary: "Society of Automotive Engineers (SAE) Formula Electric is the second year of a continuation project aimed at establishing an SAE electric vehicle at Florida Tech. The project carries on the designs of the accumulator and high voltage testbed from last year’s Formula Electric teams. Additionally, through a combined effort of three electrical and one mechanical team, this team designed, tested, and produced three additional systems: high voltage box, low voltage box, and cooling system. The goal was to integrate and mount the accumulator, motor controller, motor, high voltage box, low voltage box, and cooling system with the limited user interface on the chassis."
-date: 2019-05-10
+date: 2020-05-10
 type: docs
 tags:
   - MATLAB Simulink
