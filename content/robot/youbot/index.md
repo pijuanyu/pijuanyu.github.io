@@ -42,12 +42,14 @@ This project implements a complete mobile manipulation control system for the KU
 
 The chassis configuration is described by the SE(3) matrix:
 
+{{< math >}}
 $$T_{sb}(q) = \begin{bmatrix} 
 \cos\phi & -\sin\phi & 0 & x \\
 \sin\phi & \cos\phi & 0 & y \\
 0 & 0 & 1 & 0.0963 \\
 0 & 0 & 0 & 1
 \end{bmatrix}$$
+{{< math >}}
 
 where $q = (\phi, x, y)$ represents the chassis configuration.
 
@@ -55,7 +57,9 @@ where $q = (\phi, x, y)$ represents the chassis configuration.
 
 The end-effector configuration is computed using the product of exponentials formula:
 
+{{< math >}}
 $$T_{se}(\theta) = T_{sb}(q) T_{b0} e^{[\mathcal{B}_1]\theta_1} e^{[\mathcal{B}_2]\theta_2} \cdots e^{[\mathcal{B}_5]\theta_5} M_{0e}$$
+{{< math >}}
 
 where $\mathcal{B}_i$ are the body screw axes and $\theta = (\theta_1, ..., \theta_5)$ are joint angles.
 
@@ -63,7 +67,9 @@ where $\mathcal{B}_i$ are the body screw axes and $\theta = (\theta_1, ..., \the
 
 The mobile manipulator Jacobian combines base and arm contributions:
 
+{{< math >}}
 $$\mathcal{V}_e = J_e(\theta) \dot{u}$$
+{{< math >}}
 
 where $\dot{u} = (u_1, u_2, u_3, u_4, \dot{\theta}_1, ..., \dot{\theta}_5)^T$ contains wheel speeds and joint velocities.
 
@@ -73,7 +79,9 @@ where $\dot{u} = (u_1, u_2, u_3, u_4, \dot{\theta}_1, ..., \dot{\theta}_5)^T$ co
 
 The system implements a feedforward-plus-PI controller:
 
+{{< math >}}
 $$\mathcal{V}(t) = [Ad_{X^{-1}X_d}]\mathcal{V}_d(t) + K_p X_{err}(t) + K_i \int_0^t X_{err}(\tau) d\tau$$
+{{< math >}}
 
 where:
 - $\mathcal{V}_d(t)$: feedforward reference twist

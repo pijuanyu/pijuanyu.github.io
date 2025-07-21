@@ -29,9 +29,11 @@ This project presents a comprehensive simulation of multi-body dynamics using La
 
 The system dynamics are governed by the Euler-Lagrange equations:
 
+{{< math >}}
 $$
 \frac{d}{dt}\left(\frac{\partial L}{\partial \dot{q}}\right) - \frac{\partial L}{\partial q} = Q
 $$
+{{< math >}}
 
 where $L = T - V$ is the Lagrangian (kinetic minus potential energy), $q$ represents generalized coordinates, and $Q$ are generalized forces.
 
@@ -39,9 +41,11 @@ where $L = T - V$ is the Lagrangian (kinetic minus potential energy), $q$ repres
 
 The total kinetic energy of the system is expressed as:
 
+{{< math >}}
 $$
 KE = \frac{1}{2}(v^b)^T \begin{bmatrix} m I_{4x4} & 0 \\ 0 & I \end{bmatrix} v^b
 $$
+{{< math >}}
 
 where $v^b$ represents the body velocities, $m$ is the mass, and $I$ is the moment of inertia tensor.
 
