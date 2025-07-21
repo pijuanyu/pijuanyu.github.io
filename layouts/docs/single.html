@@ -20,7 +20,7 @@
           <div class="article-tags" style="margin-top: 2rem;">
             <h4>Tags:</h4>
             {{ range .Params.tags }}
-            <a class="badge badge-light mr-1 mb-1" href="{{ (site.GetPage "taxonomyTerm" "tags" .).RelPermalink }}">{{ . }}</a>
+            <a class="badge badge-light mr-1 mb-1" href="{{ "/tags/" | relURL }}{{ . | urlize }}/">{{ . }}</a>
             {{ end }}
           </div>
           {{ end }}
