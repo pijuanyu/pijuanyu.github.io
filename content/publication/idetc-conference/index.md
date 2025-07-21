@@ -15,7 +15,7 @@ author_notes:
   - 'Co-first author'
   - 'Corresponding author'
   
-type: docs
+type: publication
 date: '2025-04-28T00:00:00Z'
 doi: ''
 

@@ -7,7 +7,7 @@ authors:
   - Rebecca F. Friesen
 date: "2025-06-19T00:00:00Z"
 doi: ""
-type: docs
+type: publication
 # Schedule page publish date (NOT publication's date).
 publishDate: "2025-07-20T00:00:00Z"
 

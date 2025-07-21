@@ -19,7 +19,7 @@ author_notes:
 
 date: '2025-04-18T00:00:00Z'
 doi: ''
-type: docs
+type: publication
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2025-04-18T00:00:00Z'

@@ -8,7 +8,7 @@ authors:
 author_notes:
 # - "Equal contribution"
 # - "Equal contribution"
-type: docs
+type: publication
 date: "2025-01-27T00:00:00Z"
 doi: "https://doi.org/10.1115/1.4067417"
 
