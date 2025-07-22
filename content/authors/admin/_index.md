@@ -53,7 +53,7 @@ interests:
 education:
   - area: Ph.D. in Mechanical Engineering
     institution: Texas A&M University
-    icon: custom/tamu
+    icon: "custom/tamu"
     date_start: 2022-08-20
     date_end: ''
     summary: |
@@ -77,7 +77,7 @@ education:
     institution: Florida Institute of Technology
     date_start: 2018-08-15
     date_end: 2020-05-15
-    icon: custom/fit
+    icon: "custom/fit"
     summary: |
       GPA: 3.51/4.0
 
@@ -225,28 +225,28 @@ awards:
   - title: NSF Research Fellowship
     date: '2022-08-20'
     awarder: National Science Foundation
-    icon: custom/nsf  
+    icon: "custom/nsf" 
     summary: |
       Fully funded Ph.D. research through NSF grant supporting haptics and robotics research.
   - title: 2024 Graduate Student Travel Award
     url: https://grad.tamu.edu/funding-opportunities-for-graduate-students/graduate-student-travel-awards
     date: '2024-01-25'
     awarder: J. Mike Walker ’66 Department of Mechanical Engineering in Texas A&M University
-    icon: custom/tamu
+    icon: "custom/tamu"
     summary: |
       Travel award for 2024 IEEE Haptics Symposium
   - title: 2023 Graduate Student Travel Award
     url: https://grad.tamu.edu/funding-opportunities-for-graduate-students/graduate-student-travel-awards
     date: '2023-05-25'
     awarder: J. Mike Walker ’66 Department of Mechanical Engineering in Texas A&M University
-    icon: camera
+    icon: "custom/tamu"
     summary: |
       Travel award for 2023 ASME IDETC-CIE Conference
   - title: Cum Laude
     url: https://www.fit.edu/
     date: '2020-05-06'
     awarder: Florida Tech
-    icon: custom/fit
+    icon: "custom/fit"
     summary: |
       Graduate with cum laude.
 ---
