@@ -211,7 +211,7 @@ skills:
       - name: Photography
         description: ''
         percent: 80
-        icon: "custom/nsf" 
+        icon: camera 
 
 languages:
   - name: English
