@@ -57,6 +57,8 @@ education:
     date_start: 2022-08-20
     date_end: ''
     summary: |
+      GPA: 4.0/4.0
+
       Supervised by [Prof Rebecca F. Friesen](https://www.friesenhaptics.com/). Published journal papers at IEEE Transaction on haptics and ASME Journal of Computing and Information Science in Engineering. Presented paper, poster and demos at IEEE Haptics Symposium, IEEE World Haptics Conference, IEEE International Conference on Ubiquitous Robots (UR), ASME IDETC/CIE conference.
   - area: Ms in Mechanical Engineering
     institution: Northwestern University
@@ -209,7 +211,7 @@ skills:
       - name: Photography
         description: ''
         percent: 80
-        icon: camera
+        icon: "custom/nsf" 
 
 languages:
   - name: English
