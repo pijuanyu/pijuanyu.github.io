@@ -33,7 +33,7 @@ abstract: |
 summary: In this study, we proposed a novel system that records and plays back VR experiences using the WEART TouchDIVER haptic glove, which provides localized 1 DOF force, vibration, and temperature feedback to each fingertip.
 
 tags:
-- In Progress
+- Under Review
 
 featured: true
 
