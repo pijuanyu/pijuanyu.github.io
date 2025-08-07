@@ -23,7 +23,7 @@ publication_types: ["article"]
 
 # Publication name and optional abbreviated publication name.
 publication: "submitted to IEEE Transactions on Haptics"
-publication_short: "submitted to IEEE Trans. Hapt"
+publication_short: "submitted to IEEE Trans. Hapt (ToH)"
 
 abstract: |
   Haptic replay, in which a passive hand experiences tactile sensations that would normally be acquired through active interaction, can facilitate training of touch-dependent tasks and sharing of haptic experiences. These applications are limited by demonstrably worse interpretation of haptic data under passive conditions. 

@@ -2,14 +2,15 @@
 title: "Haptic Acuity during Shared Grasp Experiences in Virtual Reality"
 authors:
   - admin
+  - Gwilym Couch
   - Thomas K. Ferris
   - M. Cynthia Hipwell
   - Rebecca F. Friesen
-date: "2025-06-19T00:00:00Z"
+date: "2025-08-07T00:00:00Z"
 doi: ""
 type: publication
 # Schedule page publish date (NOT publication's date).
-publishDate: "2025-07-20T00:00:00Z"
+publishDate: "2025-08-07T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -17,14 +18,14 @@ publishDate: "2025-07-20T00:00:00Z"
 publication_types: ["article"]
 
 # Publication name and optional abbreviated publication name.
-publication: "in Progress"
-publication_short: "in Progress"
+publication: "submitted to IEEE Transactions on Haptics"
+publication_short: "submitted to IEEE Trans. Hapt (ToH)"
 
 abstract: |
 
-  Wearable haptic gloves have the potential to greatly enhance active touch experiences in virtual reality (VR). However, it remains unclear how well people can interpret glove-enabled virtual touch experiences when experienced passively; for example, when viewing a virtual hand perform autonomous actions while also feeling what the virtual hand feels via a haptic glove. Such a “haptic replay” scenario could enable people to share, revisit, or demonstrate touch-critical experiences, including medical palpation or fine manipulation of tools. 
+  Wearable haptic gloves have the potential to greatly enhance active touch experiences in virtual reality (VR). However, it remains unclear how well people can interpret glove-enabled virtual touch experiences when experienced passively (for example, when they passively view a virtual hand perform autonomous actions while also feeling what the virtual hand feels via a haptic glove). Such a “haptic replay” scenario could enable people to share, revisit, or demonstrate touch-critical experiences, including medical palpation or fine manipulation of tools. 
 
-  This study explores people’s ability to interpret one tactile feature, object size, when receiving touch feedback from a commercial haptic glove during either an active or passively-viewed grasp interaction. Although passive conditions resulted in poorer size acuity than during active touch, passive performance improved when participants mimicked the motion of the virtual hand, underscoring the role of proprioceptive feedback in grasp interpretation. In this work, men also outperformed women in object size discrimination, suggesting potential influences of glove ergonomics and size congruency between the real and virtual hand. 
+  This study explores a virtual user's ability to interpret one tactile feature, object size, when receiving touch feedback from a commercial haptic glove during either an active or passive grasp interaction. Although passive conditions resulted in poorer size acuity than during active touch, passive performance improved when participants mimicked the motion of the virtual hand, underscoring the role of proprioceptive feedback in grasp interpretation. Additionally, gender differences in performance suggest potential influences of glove ergonomics and size congruency between the real and virtual hand. 
 
   Future research should investigate these variables and strive for balanced gender representation to assess generalization across VR applications.
 
