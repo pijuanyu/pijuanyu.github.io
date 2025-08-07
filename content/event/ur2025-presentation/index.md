@@ -28,7 +28,7 @@ publishDate: '2025-04-18T00:00:00Z'
 authors:
   - admin
 
-tags: [Conference paper]
+tags: [Conference Presentation]
 
 # Is this a featured talk? (true/false)
 featured: false

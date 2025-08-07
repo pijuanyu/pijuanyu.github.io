@@ -34,6 +34,7 @@ summary: In this study, we proposed a novel system that records and plays back V
 
 tags:
 - Under Review
+- Journal articles
 
 featured: true
 

@@ -31,7 +31,7 @@ authors:
   - admin
   - Rebecca F. Friesen
 
-tags: [Conference paper]
+tags: [Conference Presentation]
 
 # Is this a featured talk? (true/false)
 featured: false
