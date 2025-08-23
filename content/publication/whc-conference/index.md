@@ -17,7 +17,7 @@ author_notes:
   # - 'Equal contribution'
 
 date: '2025-04-16T00:00:00Z'
-doi: ''
+doi: 'https://doi.org/10.1109/WHC64065.2025.11123191'
 type: publication
 
 # Schedule page publish date (NOT publication's date).
@@ -26,7 +26,7 @@ publishDate: '2025-04-16T00:00:00Z'
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ['paper-conference']
+publication_types: ['Conference Paper']
 
 # Publication name and optional abbreviated publication name.
 publication: In *2025 IEEE World Haptics Conference (WHC)*

@@ -7,7 +7,7 @@ authors:
   - M. Cynthia Hipwell
   - Rebecca F. Friesen
 date: "2025-08-07T00:00:00Z"
-doi: ""
+doi: "https://doi.org/10.36227/techrxiv.175561688.83754873/v1"
 type: publication
 # Schedule page publish date (NOT publication's date).
 publishDate: "2025-08-07T00:00:00Z"
@@ -15,7 +15,7 @@ publishDate: "2025-08-07T00:00:00Z"
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["article"]
+publication_types: ["Journal"]
 
 # Publication name and optional abbreviated publication name.
 publication: "submitted to IEEE Transactions on Haptics"

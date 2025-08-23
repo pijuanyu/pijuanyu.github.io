@@ -25,7 +25,7 @@ publishDate: '2025-04-28T00:00:00Z'
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ['paper-conference']
+publication_types: ['Conference Paper']
 
 # Publication name and optional abbreviated publication name.
 publication: In *2025 ASME International Design Engineering Technical Conferences & Computers and Information in Engineering Conference (IDETC-CIE)*

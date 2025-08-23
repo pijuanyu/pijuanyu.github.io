@@ -27,7 +27,7 @@ publishDate: '2025-04-18T00:00:00Z'
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ['paper-conference']
+publication_types: ['Conference Paper']
 
 # Publication name and optional abbreviated publication name.
 publication: In *2025 IEEE 22nd International Conference on Ubiquitous Robots (UR)*
