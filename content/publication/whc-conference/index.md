@@ -26,7 +26,7 @@ publishDate: '2025-04-16T00:00:00Z'
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ['Conference Paper']
+publication_types: ['2025 IEEE WHC']
 
 # Publication name and optional abbreviated publication name.
 publication: In *2025 IEEE World Haptics Conference (WHC)*
