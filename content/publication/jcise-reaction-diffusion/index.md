@@ -33,7 +33,7 @@ tags:
 - Under Review
 - Journal articles
 
-featured: true
+featured: false
 
 links:
 # - name: Custom Link
