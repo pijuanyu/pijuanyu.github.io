@@ -15,7 +15,7 @@ publishDate: "2025-09-18T00:00:00Z"
 publication_types: ["ASME JCISE"]
 
 # Publication name and optional abbreviated publication name.
-publication: "submitted to ASME Journal of Computing and Information Science in Engineering
+publication: "submitted to ASME Journal of Computing and Information Science in Engineering"
 publication_short: "submitted to ASME JCISE"
 
 abstract: |
