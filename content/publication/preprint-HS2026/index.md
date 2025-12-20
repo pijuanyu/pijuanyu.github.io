@@ -8,12 +8,12 @@ authors:
   - M. Cynthia Hipwell
   - Rebecca F. Friesen
 
-date: "2025-10-12T00:00:00Z"
+date: "2025-12-19T00:00:00Z"
 doi: ""
 type: publication
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2025-10-12T00:00:00Z"
+publishDate: "2026-04-01T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -33,7 +33,6 @@ abstract: |
 summary: This paper presented a novel hybrid haptic display that significantly improves performance in a remote palpation task by combining large-scale force feedback with fine-grained contact area cues.
 
 tags:
-- Under Review
 - Conference Paper
 
 featured: true
