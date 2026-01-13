@@ -6,11 +6,11 @@ authors:
   - Thomas K. Ferris
   - M. Cynthia Hipwell
   - Rebecca F. Friesen
-date: "2025-08-07T00:00:00Z"
+date: "2026-01-13T00:00:00Z"
 doi: "https://doi.org/10.36227/techrxiv.175561688.83754873/v1"
 type: publication
 # Schedule page publish date (NOT publication's date).
-publishDate: "2025-08-07T00:00:00Z"
+publishDate: "2026-01-13T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -18,8 +18,8 @@ publishDate: "2025-08-07T00:00:00Z"
 publication_types: ["IEEE Transactions on Haptics"]
 
 # Publication name and optional abbreviated publication name.
-publication: "submitted to IEEE Transactions on Haptics"
-publication_short: "submitted to IEEE Trans. Hapt (ToH)"
+publication: "IEEE Transactions on Haptics"
+publication_short: "IEEE Trans. Hapt (ToH)"
 
 abstract: |
 
@@ -33,7 +33,6 @@ abstract: |
 summary: In this study, we proposed a novel system that records and plays back VR experiences using the WEART TouchDIVER haptic glove, which provides localized 1 DOF force, vibration, and temperature feedback to each fingertip.
 
 tags:
-- Under Review
 - Journal articles
 
 featured: true
