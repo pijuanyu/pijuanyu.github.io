@@ -4,10 +4,10 @@ authors:
   - MacKenzie Harnett
   - admin
   - Rebecca F. Friesen
-date: "2025-09-18T00:00:00Z"
+date: "2026-02-10T00:00:00Z"
 type: publication
 # Schedule page publish date (NOT publication's date).
-publishDate: "2025-09-18T00:00:00Z"
+publishDate: "2026-02-10T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -15,8 +15,8 @@ publishDate: "2025-09-18T00:00:00Z"
 publication_types: ["ASME JCISE"]
 
 # Publication name and optional abbreviated publication name.
-publication: "submitted to ASME Journal of Computing and Information Science in Engineering"
-publication_short: "submitted to ASME JCISE"
+publication: "ASME Journal of Computing and Information Science in Engineering. "
+publication_short: "ASME JCISE"
 
 abstract: |
   Surface haptic technology reintegrates the sense of touch into virtual interactions on touchscreen devices, enhancing social interactions, educational tools, and daily screen tasks. Despite its clear benefits, this technology remains niche, and guidelines for designing diverse and compelling touch sensations are lacking.
@@ -30,7 +30,6 @@ abstract: |
 summary: This study evaluated the perceptual dimensions in which parameter-controlled reaction-diffusion textures span three sensory feedback modes. 
 
 tags:
-- Under Review
 - Journal articles
 
 featured: false

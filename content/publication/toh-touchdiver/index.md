@@ -7,7 +7,7 @@ authors:
   - M. Cynthia Hipwell
   - Rebecca F. Friesen
 date: "2026-01-13T00:00:00Z"
-doi: "https://doi.org/10.36227/techrxiv.175561688.83754873/v1"
+doi: "https://doi.org/10.1109/TOH.2026.3654548"
 type: publication
 # Schedule page publish date (NOT publication's date).
 publishDate: "2026-01-13T00:00:00Z"

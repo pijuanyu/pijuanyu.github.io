@@ -17,10 +17,10 @@ author_notes:
   
 type: publication
 date: '2025-04-28T00:00:00Z'
-doi: ''
+doi: 'https://doi.org/10.1115/DETC2025-169067'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2025-04-28T00:00:00Z'
+publishDate: '2025-10-27T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).

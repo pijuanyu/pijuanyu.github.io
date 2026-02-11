@@ -21,8 +21,8 @@ publishDate: "2026-04-01T00:00:00Z"
 publication_types: ["2026 IEEE Haptics Symposium (HAPTICS)"]
 
 # Publication name and optional abbreviated publication name.
-publication: "submitted to 2026 IEEE Haptics Symposium (HAPTICS)"
-publication_short: "submitted to 2026 IEEE Haptics Symposium"
+publication: "2026 IEEE Haptics Symposium (HAPTICS)"
+publication_short: "2026 IEEE Haptics Symposium (HAPTICS)"
 
 abstract: |
   Remote palpation enables noninvasive tissue examination in telemedicine, yet current tactile displays often lack the fidelity to convey both large-scale forces and fine spatial details. This study introduces a hybrid fingertip display comprising a rigid platform and a 4 x 4 soft pneumatic tactile display (4.93 mm displacement and 1.175 N per single pneumatic chamber) to render a hard lump beneath soft tissue. This study compares three rendering strategies: a Platform-Only baseline that renders the total interaction force; a Hybrid A (Position + Force Feedback) strategy that adds a dynamic, real-time soft spatial cue; and a Hybrid B (Position + Preloaded Stiffness Feedback) strategy that provides a constant, pre-calculated soft spatial cue.
