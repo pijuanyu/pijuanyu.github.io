@@ -104,9 +104,12 @@ work:
     date_end: ''
     summary: |
       Responsibilities include:
-      - Developed a robotic visuo-haptic platform for remote medical palpation; achieved 75% tumor diagnostic accuracy in 18 participants, proving passive haptic feedback alone sufficed for size perception (Published).
-      - Engineered a wearable VR haptic glove with Unity-integrated force feedback; 40-subject study showed 25% tactile acuity gain via mimicking motions, validating proprioception’s role in VR interaction (in Progress).
-      - Develop low-cost, open-source soft haptic display toolkits (e.g., soft tactile displays) to democratize access to high-fidelity tactile interfaces (Published).
+      - Engineered a ROS 2 telepalpation system by integrating a 4x4 soft pneumatic array on a rigid platform; implemented a novel mapping algorithm where OptiTrack motion data drives the stage and K-Means clustered high-resolution tactile sensing data drives the pneumatics. 
+      (Published in IEEE Haptics Symposium; extended framework in prep. for IEEE T-RO).
+      - Developed the open-source ”Soft Haptics Display (SHD) Toolkit,” a full-stack rapid prototyping platform featuring a low-cost, 4×4 soft wearable fingertip tactile display with a spatial resolution of 4 mm and Python-based control GUI. (Published in IEEE UR).
+      - Engineered a VR-haptic integration framework in Unity (C#) integrating a wearable haptic glove with physics engines; characterized system latency (<11ms) via high-speed optical tracking (300 FPS); quantified the JND of grasp aperture. (Published in IEEE ToH).
+      - Engineered a 2-DOF robotic haptic platform utilizing computer vision-based trajectory tracking (OpenCV) and a hybrid feedforward-feedback control architecture; achieved visuo-haptic synchronization for medical training simulations (Published in IEEE ToH).
+
 
   - position: Research Technician
     company_name: Northwestern University - The Feinberg School of Medicine
