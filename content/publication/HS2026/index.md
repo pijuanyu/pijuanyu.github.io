@@ -9,7 +9,7 @@ authors:
   - Rebecca F. Friesen
 
 date: "2025-12-19T00:00:00Z"
-doi: ""
+doi: "https://doi.org/10.48550/arXiv.2601.11807"
 type: publication
 
 # Schedule page publish date (NOT publication's date).
@@ -71,6 +71,8 @@ projects:
 #   Otherwise, set `slides: ""`.
 slides: example
 ---
+
+{{< youtube id="nhlJSJjoRoI" title="Hybrid Soft Haptic Display" >}}
 
 <!-- This work is driven by the results in my [previous paper](/publication/conference-paper/) on LLMs.
 

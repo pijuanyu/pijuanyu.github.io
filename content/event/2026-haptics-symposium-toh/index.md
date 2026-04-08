@@ -41,7 +41,7 @@ image:
 #  - icon: twitter
 #    icon_pack: fab
 #    name: Follow
-url: https://doi.org/10.1109/TOH.2026.3654548
+# url: 'https://doi.org/10.1109/TOH.2026.3654548'
 # url_code: 'https://github.com/pijuanyu2022/Soft-Haptic-Display-Toolkit'
 url_pdf: ''
 url_slides: ''
