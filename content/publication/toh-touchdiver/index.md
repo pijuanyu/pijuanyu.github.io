@@ -72,6 +72,8 @@ projects:
 slides: example
 ---
 
+{{< youtube id="A1e1Aplj9zY" title="VR-haptic Replay Framework" >}}
+
 <!-- This work is driven by the results in my [previous paper](/publication/conference-paper/) on LLMs.
 
 {{% callout note %}}
