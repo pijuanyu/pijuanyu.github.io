@@ -18,12 +18,12 @@ abstract: 'Wearable haptic gloves have the potential to greatly enhance active t
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2025-04-01T09:42:00Z'
-date_end: '2025-04-01T09:59:00Z'
+date: '2026-04-01T09:42:00Z'
+date_end: '2026-04-01T09:59:00Z'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: '2025-01-15T00:00:00Z'
+publishDate: '2026-01-15T00:00:00Z'
 
 authors:
   - admin
