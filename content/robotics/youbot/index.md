@@ -13,7 +13,10 @@ url_code: 'https://github.com/pijuanyu/youbot-manipulation'
 
 ## Simulation Results
 
-{{< youtube id="BEbqcsws210" title="YouBot Mobile Manipulation Demonstration" >}}
+<video controls width="100%" playsinline preload="metadata">
+  <source src="/uploads/robot_mobile_manipulation.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
 
 ## Project Overview
 
