@@ -13,6 +13,7 @@ url_code: 'https://github.com/pijuanyu/youbot-manipulation'
 
 ## Simulation Results
 
+Watch the demo locally:
 <video controls width="100%" playsinline preload="metadata">
   <source src="/uploads/robot_mobile_manipulation.mp4" type="video/mp4">
   Your browser does not support HTML5 video.
